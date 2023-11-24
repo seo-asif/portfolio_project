@@ -25,49 +25,49 @@ Make sure you have the following software installed on your machine:
 ```
  
 
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 ```bash
 cd portfolio_project
 ```
 
-Install PHP dependencies:
+3. **Install PHP dependencies:**
 
 ```bash
 Copy code
 composer install
 ```
 
-Install Node.js dependencies:
+4. **Install Node.js dependencies:**
 
 ```bash
 npm install
 ```
-Copy the .env.example file and rename it to .env:
+5. **Copy the .env.example file and rename it to .env:**
 
 ```bash
 cp .env.example .env
 ```
 
-Generate an application key:
+6. **Generate an application key:**
 ```bash
 php artisan key:generate
 ```
 
-Configure your database settings in the .env file.
+7. **Configure database settings in the .env file.**
 
 Run database migrations:
 
 ```bash
 php artisan migrate
 ```
-Compile assets:
+8. **Compile assets:**
 
 ```bash
 npm run dev
 ```
 
-Start the development server:
+9. **Start the development server:**
 
 ```bash
 php artisan serve
