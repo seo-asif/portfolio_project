@@ -19,6 +19,9 @@
     background-color: #00b383;
 }
 
+.navbar {
+    background-color: aliceblue;
+}
 .navbar-toggler {
     border: none;
     font-size: 1.25rem;
@@ -62,4 +65,56 @@
         visibility: visible;
         width: 100%;
     }
+}
+
+.page_margin {
+    margin-top: 60px;
+}
+
+.social_icons {
+    color: #009970;
+}
+
+.social_icons:hover {
+    color: #00b383;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a {
+    text-decoration: none;
+}
+
+.img-thumbnail {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #009970;
+}
+
+strong{
+    color: #009970;
+    font-weight: 500;
+}
+.form-control:focus {
+    border:2px solid #009970;
+    outline: none;
+    box-shadow: none;
+}
+.form-control{
+    border: 1px solid #009970;
+}
+
+.progress-bar{
+    background-color: #009970;
 }
